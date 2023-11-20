@@ -20,7 +20,7 @@ void bubble_sort(int *array, size_t size)
 
 	/* 5, 7, 9, 1, 4, 10, 2, 8, 6, 8 */
 	/* create an outer for loop that loops through the array */
-	for (i = 0; i < size - 1; i++)
+	for (i = 0; i < size - 1 && size > 1; i++)
 	{
 		state = false;
 		/* swap value inside inner loop*/
